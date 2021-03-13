@@ -1,17 +1,17 @@
-body {
-	outline: 0;
-	padding: 0;
-	margin: 0;
-	border: 0;
-    }
-
-.attribution { 
+/* .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
+} */
 
+body {
+    font-family: 'Commissioner', sans-serif;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+    border: 0;
+    }
 
 #navbar-container {
     position: absolute;
@@ -27,29 +27,100 @@ body {
     max-width: 79%;
  }
 
+#nav-items {
+    color: white;
+}
+
+ #header {
+    position: relative;
+}
 
 #main {
     position: absolute;
-    bottom: 38%;
+    top: 76%;
     left: 50%;
     transform: translateX(-50%);
     width: 80%;
+    height: 50%;
 }
 
 #master-logo {
     position: absolute;
     left: 50%;
-    bottom: 80%;
+    bottom: 88%;
     transform: translateX(-50%);
 }
 
 #back-this-project {
-    position: relative;
-    bottom: 50%;
+ 
 }
 
 #mastercraft-div {
-    width: 80%;
- 
-} 
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.0rem;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 48%);
+}
+
+#back-this-project-btn {
+	background-color:#3cb4ac;
+	border-radius:28px;
+	border:1px solid #3cb4ac;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:16px;
+	padding:15px 38px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3cb4ac;
+    position: relative;
+    left: 5%;
+}
+#back-this-project-btn:hover {
+	background-color:#147b74;
+}
+#back-this-project-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+#bookmark-btn {
+	background-color:#f4f4f4;
+	border-radius:28px;
+	border:1px solid #f4f4f4;
+	display:inline-block;
+	cursor:pointer;
+	color:#7a7a7a;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:700;
+	padding:13px 35px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    position: absolute;
+    right: 5%;
+}
+#bookmark-btn:hover {
+	background-color:#ebebeb;
+}
+#bookmark-btn:active {
+	position:relative;
+	top:1px;
+}
+
+#bookmark {
+    position: absolute;
+    right:21.5%;
+    z-index: 1;
+}
 
