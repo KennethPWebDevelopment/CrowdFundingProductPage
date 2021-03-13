@@ -1,4 +1,4 @@
-* {
+body {
 	outline: 0;
 	padding: 0;
 	margin: 0;
@@ -12,32 +12,44 @@
     color: hsl(228, 45%, 44%); 
 }
 
-#hero-img {
-    width: 100%;
-}
-
 
 #navbar-container {
-   position: relative;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #navbar-div {
     max-width: 79%;
  }
 
-#master-logo {
-    position: relative;
-    left: 48%;
-    top: 270px;
-    
+
+#main {
+    position: absolute;
+    bottom: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
 }
 
-/* #mastercraft-div {
+#master-logo {
+    position: absolute;
+    left: 50%;
+    bottom: 80%;
+    transform: translateX(-50%);
+}
+
+#back-this-project {
     position: relative;
-    top: 240px;
-    right: 10px;
-    width: 1000px;
-    height: 1000px;
-    background-color: red;
-} */
+    bottom: 50%;
+}
+
+#mastercraft-div {
+    width: 80%;
+ 
+} 
 
