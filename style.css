@@ -11,6 +11,7 @@ body {
 	padding: 0;
 	margin: 0;
     border: 0;
+    background-color: #f4f4f4;
     }
 
 #navbar-container {
@@ -124,3 +125,27 @@ p {
     z-index: 1;
 }
 
+#backers {
+    width: 56%;
+    background-color: white;
+    margin-top: 10%;
+    border-radius: 1%;
+    display: flex;
+    align-items: center;
+}
+
+#backers>div {
+    margin: 20px 40px 0px 40px;
+}
+
+.backers-headings {
+    color: black;  
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+
+.backers-border {
+    border: 1px solid #f4f4f4;
+    height: 5rem;
+}
