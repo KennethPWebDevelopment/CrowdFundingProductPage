@@ -47,6 +47,9 @@ body {
     width: 67%;
     background-color: white;
     border-radius: 7px;
+    box-shadow: 0px 0px 8px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 8px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px -7px rgba(0,0,0,0.75);
 }
 
 #master-logo {
@@ -91,6 +94,12 @@ p {
 	top:1px;
 }
 
+#bookmark-div {
+    width: 230px;
+    float: right;
+    margin-top: 2%
+}
+
 
 #bookmark-btn {
 	background-color:#f4f4f4;
@@ -102,11 +111,10 @@ p {
 	font-family:Arial;
 	font-size:16px;
 	font-weight:700;
-	padding:16px 25px 16px 64px;
+	padding:16px 50px 16px 64px;
 	text-decoration:none;
     text-shadow:0px 1px 0px #ffffff;
-    float: right;
-    margin: 3% 7% 6% 7%;
+    margin-top: 5px;
 }
 #bookmark-btn:hover {
 	background-color:#ebebeb;
@@ -118,15 +126,14 @@ p {
 
 #bookmark {
     position: absolute;
-    right: 165px;
-    top: 175px; 
-    z-index: 1;
+    margin-top: 5px;
+   
 }
 
 /* SECTION 2 */
 
 
-#backers {
+#section2 {
     width: 67%;
     background-color: white;
     margin-top: 3%;
@@ -135,35 +142,38 @@ p {
     margin: auto;
     margin-bottom: 25px;
     padding-bottom: 5%;
-  
+    box-shadow: 0px 0px 8px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 8px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px -7px rgba(0,0,0,0.75);
+    
 }
 
-#backers-numbers {
+#section2-numbers {
     display: flex;
 }
 
-.backers-headings {
+.section2-headings {
     color: black;  
     font-weight: 700;
     font-size: 2rem;
     margin-top: 30px;
 }
 
-.backers-border {
+.section2-border {
     border: 1px solid #f4f4f4;
     height: 5rem;
 }
 
-#backers-div1 {
+#section2-div1 {
     margin: 3% 6% 2% 6%;
     
 }
 
-#backers-div2 {
+#section2-div2 {
     margin: 3% 13% 2% 6%;
 }
 
-#backers-div3 {
+#section2-div3 {
     margin: 3% 6% 2% 6%;
 }
 
@@ -172,7 +182,11 @@ p {
     margin: auto;
     border-radius: 10px;
     height: 13px;
-    background-color: #f4f4f4;
+    background: ;
+}
+
+.progress-bar {
+    background: #3cb4ac;
 }
 
 /* SECTION 3 */
@@ -183,6 +197,10 @@ p {
     margin: auto;
     border-radius: 7px;
     padding-top: 4%;
+    padding-bottom: 4%;
+    box-shadow: 0px 0px 8px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 8px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px -7px rgba(0,0,0,0.75);
 }
 
 #section3a {
@@ -208,22 +226,66 @@ p {
      width: 87%;
      margin: auto;
      border-radius: 7px;
-     border: 1px solid #ebebeb;
+     border: 1.5px solid #ebebeb;
      margin-top: 50px;
+     padding-bottom: 5%;
+
 }
 
 .section3>h3 {
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    margin: 6% 0% 6% 6%;
+    margin: 6% 0% 2% 6%;
 
 }
 
 .pledge {
     display: inline;
     margin-top: 6%;
-    width: 27%;
+    width: 35%;
     float: right;
     color: #3cb4ac;
+}
+
+.section3-p2 {
+    text-align: left;
+    width: 90%;
+    margin-left: 6%;
+    line-height: 1.9rem;
+}
+
+.numbers {
+    margin-left: 6%;
+    font-size: 2.0rem;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.numbers-span {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: hsl(0, 0%, 48%);
+    position: relative;
+    top: -5px;
+    left: 1px;
+
+
+}
+
+.section3-buttons {
+
+    background-color:#3cb4ac;
+	border-radius:28px;
+	border:1px solid #3cb4ac;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:16px;
+	padding:11px 28px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3cb4ac;
+    float: right;
+    margin-right: 36px;
+
 }
